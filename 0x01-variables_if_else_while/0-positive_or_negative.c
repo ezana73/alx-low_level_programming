@@ -25,5 +25,4 @@ n = rand() - RAND_MAX / 2;
 		printf("%d is zero\n", n);
 
 	return (0);
-
 }
