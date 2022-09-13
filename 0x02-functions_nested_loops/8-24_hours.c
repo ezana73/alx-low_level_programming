@@ -14,7 +14,7 @@ int mins_remainders;
 
 while (hours <= 23)
 {
-while (mins <= 59)
+while (minutes <= 59)
 {
 mins_remainders = minutes % 10;
 hours_remainders = hours % 10;
