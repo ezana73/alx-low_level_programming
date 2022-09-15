@@ -3,7 +3,7 @@
 
 /**
 *print_number - print a number
-*@n: the number
+*@n: the number to print
 */
 
 void print_number(int n)
@@ -15,7 +15,7 @@ void print_number(int n)
 		putchar('-');
 		num = -num;
 	}
-	if (n > 9)
+	if (num > 9)
 	{
 		print_number(num / 10);
 	}
