@@ -3,7 +3,7 @@
 
 /**
 *puts2 -prints every other character
-*str: string
+*@str: string
 *
 *Return: nothing
 */
