@@ -21,9 +21,9 @@ void puts_half(char *str)
 
 	while (half < index)
 	{
-		printf(str[half]);
+		puts_half(str[half]);
 		half++;
 	}
-	printf('\n');
+	puts_half('\n');
 }
 
