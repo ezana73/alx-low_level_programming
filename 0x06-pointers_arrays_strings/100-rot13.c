@@ -6,7 +6,7 @@
  * Return: the encoded string
  */
 
-char *rot13(char *)
+char *rot13(char *str)
 {
 	int index1, index2;
 
@@ -29,7 +29,7 @@ char *rot13(char *)
 						'x', 'y', 'z', 'a', 'b', 'c',
 						'd', 'e', 'f', 'g', 'h', 'i',
 						'j', 'k', 'l', 'm'};
-	
+
 	while (str[++index])
 	{
 		for (index2 = 0; index2 < 52; index2++)
