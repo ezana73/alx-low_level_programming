@@ -3,7 +3,7 @@
 /**
  *_strcat -concatenates the string pointed to by @src to
  *to end of the string pointed to by the @dest
- *@dset - the string that will be appended
+ *@dest: - the string that will be appended
  *@src: the string to be concatenates 
  *
  *Return: returns poineer to @dest
