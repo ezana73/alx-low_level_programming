@@ -4,14 +4,14 @@
  *_strcmp - function which compare two string and
  *@s1: first string
  *@s2: second string
- *Return: return 0, if s1 = s2,negative if s1 < s2 or positive if s1> s2 
+ *Return: return 0, if s1 = s2,negative if s1 < s2 or positive if s1> s2
  */
 
 int _strcmp(char *s1, char *s2)
 {
 	int i = 0, diff = 0;
 
-	while(1)
+	while (1)
 	{
 		if (s1[i] == '\0' && s2[i] == '\0')
 			break;
