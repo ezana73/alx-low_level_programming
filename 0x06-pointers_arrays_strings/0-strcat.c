@@ -1,4 +1,4 @@
-#include “main.h”
+#include "main.h"
 
 /**
  *_strcat -concatenates the string pointed to by @src to
@@ -7,7 +7,7 @@
  *@src: the string to be concatenates 
  *
  *Return: returns poineer to @dest
- * */
+ */
 
 char *_strcat(char *dest, char *src)
 {
