@@ -1,4 +1,4 @@
-#include “main.h”
+#include "main.h"
 
 /**
  *_strncat - concatenate two strings but add inputted number of bytes
@@ -6,7 +6,7 @@
  *@src: string to be completed at the end of dest
  *@n: integers parameter
  *Return: returns new concatenated string
- * */
+ */
 
 char *_strncat(char *dest, char *src, int n)
 {
