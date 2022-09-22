@@ -30,7 +30,7 @@ char *rot13(char *str)
 						'd', 'e', 'f', 'g', 'h', 'i',
 						'j', 'k', 'l', 'm'};
 
-	while (str[++index1])
+	while (str[index1])
 	{
 		for (index2 = 0; index2 < 52; index2++)
 		{
@@ -40,6 +40,7 @@ char *rot13(char *str)
 				break;
 			}
 		}
+		index1++;
 	}
 	return (str);
 }
