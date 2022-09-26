@@ -12,22 +12,22 @@
 void print_diagsums(int *a, int size)
 {
 	int i, size1;
-	unsigned int sumdiag1, sumdiag2;
+	unsigned int sumDiag1, sumDiag2;
 
 	size1 = 0;
-	sumdiag1 = 0;
-	sumdiag2 = 0;
-
+	sumDiag1 = 0;
+	sumDiag2 = 0;
 	size1 = (size * size) - 1;
 
 	for (i = 0; i <= size1; i = i + (size + 1))
 	{
-		sumdiag1 = sumdiag1 + a[i];
+		sumDiag1 = sumDiag1 + a[i];
 	}
 
 	for (i = (size - 1); i < size1; i = i + (size - 1))
+	{
 
-		sumdiag2 = sumdiag2 + a[i];
+		sumDiag2 = sumDiag2 + a[i];
 	}
-	printf("%d, %d\n", sumdiag1, sumdiag2);
+	printf("%d, %d\n", sumDiag1, sumDiag2);
 }
