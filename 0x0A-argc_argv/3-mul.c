@@ -4,7 +4,7 @@
 /**
 *main - multiplies two number
 *@argc: parameter
-*@argv: an array of pointers to the strings 
+*@argv: an array of pointers to the strings
 *Return: zero success
 */
 
