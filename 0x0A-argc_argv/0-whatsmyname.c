@@ -2,7 +2,8 @@
 
 /**
 *main - print name of file
-*
+*argc: counts of arregument supplied
+*argv[]: array of pointer to string
 *Return: zero
 */
 
