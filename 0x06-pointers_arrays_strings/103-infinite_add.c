@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * add_string - add the number stored in two string
+ * add_strings - add the number stored in two string
  * @n1: the string containing first number to be added
  * @n2: the string containing second number to be added
  * @r: the buffer to store the result
