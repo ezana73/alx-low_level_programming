@@ -22,22 +22,22 @@ char *argstostr(int ac, char **av)
 	while (i < ac)
 	{
 		j = 0;
-		while (av[i][j])
+		while (av[i][j] != '\0')
 		{
 			size++;
 			j++;
 		}
-		size++;
 		i++;
 	}
-	arg = malloc((sizeof(char) * size) + 1);
+	size = size + ac + 1;
+	arg = malloc(sizeof(char) * size);
 	if (arg == NULL)
 		return (NULL);
 	i = 0;
 	while (i < ac)
 	{
 		j = 0;
-		while (av[i][j])
+		while (av[i][j] != '\0')
 		{
 			arg[k] = av[i][j];
 			j++;
