@@ -22,7 +22,7 @@ int wordnos(char *s)
 			flag = 0;
 		else if (flag == 0)
 		{
-			flag += s[c];
+			flag++;
 			w++;
 		}
 	}
