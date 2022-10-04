@@ -38,12 +38,13 @@ int count_words(char *str)
 
 	for (index = 0; *(str + index); index++)
 		len++;
+
 	for (index = 0; index < len; index++)
 	{
 		if (*(str + index) != ' ')
 		{
 			words++;
-			index += word_len(str + len);
+			index += word_len(str + index);
 		}
 	}
 	return (words);
@@ -91,7 +92,7 @@ char **strtow(char *str)
 		}
 		for (l = 0; l < letters; l++)
 			strings[w][l] = str[index++];
-		
+
 		strings[w][l] = '\0';
 	}
 	strings[w] = NULL;
