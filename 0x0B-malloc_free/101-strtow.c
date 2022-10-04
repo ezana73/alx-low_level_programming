@@ -27,7 +27,7 @@ int word_len(char *str)
 
 /**
  * count_words - counts number of word containing within string
- * @s: string to be searched
+ * @str: string to be searched
  *
  * Return: number of word in string
  */
