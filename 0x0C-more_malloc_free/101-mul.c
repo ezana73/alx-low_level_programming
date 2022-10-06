@@ -10,7 +10,7 @@ void add_nums(char *final_prod, char *next_prod, int next_len);
 
 /**
 *find_len - finds the length of string
-*@str: string 
+*@str: string
 *
 *Return: the length of string
 */
