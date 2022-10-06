@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 int find_len(char *str);
 char *create_xarray(int size);
@@ -22,9 +24,11 @@ int find_len(char *str)
 }
 
 /**
-*create_xarray - create an array initilize with char x and adds terminating null byte
+*create_xarray- create an array initilize with 
+*char x and adds terminating null byte
 *@size: size of array intialized
-*Description: if there is insufficient space the function exit with status of 98
+*Description: if there is insufficient
+*space the function exit with status of 98
 *return: pointer to array
 */
 char *create_xarray(int size)
