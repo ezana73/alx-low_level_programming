@@ -10,7 +10,7 @@ void add_nums(char *final_prod, char *next_prod, int next_len);
 
 /**
 *find_len - finds the length of string
-*@str
+*@str: string 
 *
 *Return: the length of string
 */
@@ -24,7 +24,7 @@ int find_len(char *str)
 }
 
 /**
-*create_xarray- create an array initilize with 
+*create_xarray- create an array initilize with
 *char x and adds terminating null byte
 *@size: size of array intialized
 *Description: if there is insufficient
