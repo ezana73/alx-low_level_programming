@@ -24,12 +24,12 @@ int find_len(char *str)
 }
 
 /**
-*create_xarray- create an array initilize with
-*char x and adds terminating null byte
-*@size: size of array intialized
-*Description: if there is insufficient
-*space the function exit with status of 98
-*return: pointer to array
+* create_xarray - create an array initilize with
+* char x and adds terminating null byte
+* @size: size of array intialized
+* Description: if there is insufficient
+* space the function exit with status of 98
+* Return: pointer to array
 */
 char *create_xarray(int size)
 {
@@ -106,6 +106,7 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 		*prod = 'x';
 		prod++;
 	}
+
 	prod--;
 
 	while (zeroes--)
