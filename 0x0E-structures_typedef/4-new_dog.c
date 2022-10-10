@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "dog.h"
+
 /**
 *new_dog - creates a new dog
 *@name: 1ts member
@@ -14,7 +15,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	struct dog *n_dog = NULL;
 
-	lenN = 0
+	lenN = 0;
 	while (name[lenN] != '\0')
 		lenN++;
 	lenO = 0;
