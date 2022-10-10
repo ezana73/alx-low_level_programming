@@ -41,6 +41,7 @@ char *_strcopy(char *dest, char *src)
 
 	return (dest);
 }
+
 /**
 *new_dog - creates new dog
 *@name: name of the dog
