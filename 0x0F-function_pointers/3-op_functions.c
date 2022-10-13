@@ -25,6 +25,18 @@ int op_sub(int a, int b)
 }
 
 /**
+ * op_mul - retrurns a product of 2 numbers
+ * @a: integer
+ * @b: integer
+ *
+ * Return: product
+ */
+int op_mul(int a, int b)
+{
+	return (a * b);
+}
+
+/**
  * op_div - returns the quotient of 2  numbers
  * @a: integer
  * @b: integer
